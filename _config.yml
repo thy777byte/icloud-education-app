@@ -30,8 +30,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: www.icloud.edu.com/
+        usesremote_theme:: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
@@ -49,3 +49,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+remote_theme: www.icloud.edu.com/
